@@ -1,0 +1,10 @@
+.sidebar-bg-color{
+    background-color: rgb(193, 199, 199);
+    margin-right: 60px;
+    height: 350px;
+    box-shadow: 5px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.main {
+    padding: 16px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
