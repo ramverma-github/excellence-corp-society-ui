@@ -7,6 +7,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import header from '../css/header.css';
 import Logoimg from '../images/logo-img.jpg'
 import { Link, useNavigate } from 'react-router-dom';
+import GreetingMarquee from './GreetingMarquee';
+import userLogo from '../images/userLogo.avif'
 
 const Header = () => {
 
@@ -21,7 +23,7 @@ const Header = () => {
     }
     return (
         <>
-            <Navbar expand="lg" className='headerColor' fixed="top">
+            <Navbar expand="lg" className='headerColor' fixed='top'>
                 <Container fluid>
                     <Navbar.Brand>
                         {/* <img src={Logoimg} width='160px' height='80px' 
@@ -84,13 +86,18 @@ const Header = () => {
                         <div className='login-reg-btn'>
                             <Button className='btn-marg' onClick={navigateLogin}>Login</Button>
                             <Button className='btn-marg' onClick={navigateRegister}>Register</Button>
+                            <Link to='#'>
+                                <img src={userLogo} width='60px' height='50px'
+                                    className='img-round' />
+                            </Link>
                         </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div className='headerColor'>
+            {/* <div className='headerColor'>
                 <marquee className='text-mq'>Your are Welcome!!</marquee>
-            </div>
+            </div> */}
+            <GreetingMarquee />
         </>
     );
 }

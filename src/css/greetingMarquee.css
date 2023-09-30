@@ -1,0 +1,10 @@
+.marquee-bg-color{
+    background-color: #3e8e41;
+    box-shadow: 5px 8px 16px 5px rgba(0,0,0,0.2);
+  }
+  .text-mq{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  

@@ -71,6 +71,7 @@ min-height: auto;
 }
 .img-round{
   border-radius: 80px;
+  margin-left: 40px;
 }
 .text-mq{
   color: red;
