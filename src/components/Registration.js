@@ -94,7 +94,7 @@ const Registration=(props)=>{
             
             <p>Registered Successfully!!</p>
         </div>
-    )
+    );
 }
 
 export default Registration;

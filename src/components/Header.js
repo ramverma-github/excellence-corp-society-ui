@@ -86,10 +86,10 @@ const Header = () => {
                         <div className='login-reg-btn'>
                             <Button className='btn-marg' onClick={navigateLogin}>Login</Button>
                             <Button className='btn-marg' onClick={navigateRegister}>Register</Button>
-                            <Link to='#'>
+                            {/* <Link to='#'>
                                 <img src={userLogo} width='60px' height='50px'
                                     className='img-round' />
-                            </Link>
+                            </Link> */}
                         </div>
                     </Navbar.Collapse>
                 </Container>

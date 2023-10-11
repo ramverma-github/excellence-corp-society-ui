@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Notification from "./components/Notification";
 import UserProfile from "./components/UserProfile";
+import ForgotPassword from "./components/ForgotPassword";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/registration" element={<Registration />} />
         <Route path="/header" element={<Header />} />
         <Route path="/userProfile" element={<UserProfile />} />
+        <Route path="/forgotPassword" element={<ForgotPassword />} />
       </Routes>
     </BrowserRouter>
   );

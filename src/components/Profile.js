@@ -12,7 +12,6 @@ const Home=()=> {
             console.log(resp.data);
             setRespData(resp.data)
         })
-
     }
     useEffect(() => { 
         console.log("I Only run once (When the component gets mounted)") 
